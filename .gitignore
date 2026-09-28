@@ -1,10 +1,26 @@
-# Python-generated files
+# Ambiente Virtual do UV e Python
+.venv/
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+*.pyo
+*.pyd
+.python-version
 
-# Virtual environments
-.venv
+# Pastas de Dados (NUNCA envie bases de dados para o Git)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.json
+*.pkl
+*.pickle
+
+# Histórico e checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+.virtual_env/
+
+# Configurações do VS Code e Sistema Operacional
+.vscode/
+.DS_Store
+Thumbs.db
